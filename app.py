@@ -28,7 +28,7 @@ database.create_table()
 
 def add_background():
 
-    image_path = Path(__file__).parent / "assets" / "campus.jpg"
+    image_path = Path(__file__).parent "campus.jpg"
 
     if image_path.exists() and image_path.stat().st_size > 0:
 
