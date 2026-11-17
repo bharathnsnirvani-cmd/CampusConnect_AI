@@ -417,7 +417,7 @@ if page == "Dashboard":
 
     col1, col2, col3, col4 = st.columns(4)
 
-    col1.metric("Total Complaints", len(total))
+    col1.metric("Total Complaints",(total)
     col2.metric("Pending", int(pending))
     col3.metric("In Progress", int(progress))
     col4.metric("Resolved", int(resolved))
